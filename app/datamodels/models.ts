@@ -17,3 +17,9 @@ export interface ParsedActivity {
     activity: string;
 }
 
+export interface AnotherOne {
+    eventId: Key<string>;
+    timestamp: Date;
+    userId: string;
+    activity: string;
+}
