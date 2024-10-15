@@ -1,21 +1,16 @@
 {
-  "name": "second-moose-app",
+  "name": "my-moose-app",
   "version": "0.0",
   "scripts": {
-    "moose": "moose-cli",
+    "dev": "moose-cli dev",
     "build": "moose-cli build --docker --amd64",
-    "dev": "moose-cli dev"
+    "moose": "moose-cli"
   },
   "dependencies": {
-    "@514labs/moose-lib": "latest",
-    "@clickhouse/client-web": "1.1.0",
-    "fastq": "1.17.1",
-    "kafkajs": "2.2.4"
+    "@514labs/moose-lib": "latest"
   },
   "devDependencies": {
     "@514labs/moose-cli": "latest",
-    "typescript": "~5.4.0",
-    "@types/node": "^20.12.12",
-    "ts-patch": "~3.2.0"
+    "@types/node": "^20.12.12"
   }
 }
